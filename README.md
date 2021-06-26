@@ -8,9 +8,13 @@
 - Go into the php container with `docker-compose exec php bash`
 - Install libs with `composer install`
 - Setup nodejs with `npm install`
-- Run either `npm run dev` or `npm run prod`
 - Generate application secret key with `php artisan key:generate`
 - Enjoy :)
+
+## Use vitejs
+
+- Start container dev `docker-compose up`
+- Create a symbolic link in the public folder `ln -s ../assets/ assets`
 
 ## Additional features
 
